@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package object;
 
 public class Class {
     
-    int x;
-    int y;
-    int r;
+    int x,y,z;
 
     Class(){
         x=1;
@@ -38,7 +31,7 @@ public class Class {
     Class(int a,int b,int c){
         x=a;
         y=b;
-        r=c;
+        z=c;
     }
     
     int Anotherchange(Class aP){
@@ -46,7 +39,7 @@ public class Class {
     }
     
     int sum2(){
-        return x+y+r;
+        return x+y+z;
     }
     
 }
